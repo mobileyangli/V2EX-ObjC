@@ -7,4 +7,4 @@
 涉及资源：
 
  1. 项目管理看板，[Trellor](https://trello.com/b/9uhdhn4m/v2ex-objc)
- 2. 相关API Wiki
+ 2. 相关API [Wiki](https://github.com/mobileyangli/V2EX-ObjC/tree/master/API%20wiki)
