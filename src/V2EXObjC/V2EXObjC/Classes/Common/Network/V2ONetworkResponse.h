@@ -13,4 +13,6 @@
 @property(nonatomic, readonly) id rawData;
 @property(nonatomic, readonly) NSArray *datas;
 
+- (instancetype)initWithRawData:(id)rawData modelOfClass:(Class)modelClass;
+
 @end

@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface V2ONetworkError : NSObject
-
+@property (nonatomic, assign) BOOL isNetworkNotReachable;
 @end

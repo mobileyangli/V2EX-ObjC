@@ -9,5 +9,5 @@
 #import <Mantle/Mantle.h>
 
 @interface V2OMTLModel : MTLModel <MTLJSONSerializing>
-+ (void)modifyKeyPathFirstLetterToUpper:(NSMutableDictionary *)dict;
++ (NSDateFormatter*)dateFormatter;
 @end

@@ -9,6 +9,7 @@
 #ifndef V2ONetworkAPI_h
 #define V2ONetworkAPI_h
 
-static NSString *const NETWORK_API_TOPIC_HOT = @"https://www.v2ex.com/api/topics/hot.json";
+static NSString* const NETWORK_API_BaseURLString = @"https://www.v2ex.com/api/";
+static NSString* const NETWORK_API_TOPIC_HOT = @"topics/hot.json";
 
 #endif /* V2ONetworkAPI_h */
