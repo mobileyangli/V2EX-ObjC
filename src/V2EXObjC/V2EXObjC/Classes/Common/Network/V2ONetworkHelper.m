@@ -40,8 +40,6 @@
 
 - (void)httpMethod:(NSString*)method apiPath:(NSString*)apiPath parameters:(NSDictionary*)parameters modelOfClass:(Class)modelClass successBlock:(V2ORequestSuccessBlock)successBlock errorBlock:(V2ORequestErrorBlock)errorBlock finallyBlock:(V2ORequestFinalyBlock)finalyBlock {
 
-    // TODO:need lilly id
-
     if ([self checkNetworkNotReachable]) {
         [V2OHUD hideHUD];
         [V2OHUD showHUDMessage:NSLocalizedString(@"error_network_title", nil) detailMessage:NSLocalizedString(@"error_network_not_reachable", nil)];
@@ -63,6 +61,10 @@
     request.HTTPMethod = [method uppercaseString];
 
     NSURLSessionDataTask* dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse* _Nonnull response, id _Nullable responseObject, NSError* _Nullable error) {
+#if DEBUG
+        NSLog(@"%@", response);
+#endif
+
         if (error) {
             errorBlock(nil);
         } else {

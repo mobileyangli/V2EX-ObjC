@@ -3,7 +3,7 @@
 //  iDoctorSR
 //
 //  Created by 杨冬凌 on 16/5/16.
-//  Copyright © 2016年 Eli Lilly. All rights reserved.
+//  Copyright © 2016年 yangli rights reserved.
 //
 
 #import "MBProgressHUD.h"
