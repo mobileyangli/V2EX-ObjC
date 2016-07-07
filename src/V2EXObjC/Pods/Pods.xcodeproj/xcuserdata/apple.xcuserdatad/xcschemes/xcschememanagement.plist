@@ -6,63 +6,63 @@
 	<dict>
 		<key>AFNetworking.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Kiwi.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Mantle.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-V2EXObjCTests.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>ReactiveCocoa.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Result.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>10D3AF2C5C98A374E8DDA9689BFCFE06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A03863B287F19A8999A1C4C74C4EFA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4A27739BF51ABC02F18084305F15FEE1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4C29B29A779E814068815C8FDAED44B8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6350B5B138B08927662CABF7008B87A7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>71A30763753701761542E851D7673201</key>
+		<key>AFEC5FA88F3E1F053BC278E2E9A9CB2B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,7 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C72982E5CA98F130DA4F2D1E25886FDD</key>
+		<key>BF024B1A88CD5E65F5285378796BF9D2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DF2566B6860E119C1FD31B0E2F3A4B5B</key>
+		<key>EDE67309A658073DBAAC0A263C514D05</key>
 		<dict>
 			<key>primary</key>
 			<true/>
