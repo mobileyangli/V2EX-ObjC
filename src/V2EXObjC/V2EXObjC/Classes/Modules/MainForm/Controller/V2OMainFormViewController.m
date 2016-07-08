@@ -6,12 +6,11 @@
 //  Copyright © 2016年 Yang Li. All rights reserved.
 //
 
-#import "V2OMainFormScrollMenuView.h"
+
 #import "V2OMainFormViewController.h"
 
 @interface V2OMainFormViewController ()
-@property (nonatomic, weak) IBOutlet V2OMainFormScrollMenuView* menuScrollView;
-@property (nonatomic, weak) IBOutlet UIScrollView* tableViewScrollView;
+
 @end
 
 @implementation V2OMainFormViewController

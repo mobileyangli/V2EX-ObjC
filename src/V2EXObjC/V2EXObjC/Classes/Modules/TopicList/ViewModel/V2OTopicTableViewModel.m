@@ -1,4 +1,4 @@
-        //
+//
 //  V2OTableViewModel.m
 //  V2EXObjC
 //
@@ -10,10 +10,10 @@
 #import "V2OTopicTableViewModel.h"
 
 @implementation V2OTopicTableViewModel
-- (void)loadHotTopicItems :(void (^)(BOOL, NSArray*))completeBlock {
-    V2OTopic* topicModel = [V2OTopic new];
+- (void)loadHotTopicItems:(void (^)(BOOL, NSArray *))completeBlock {
+    V2OTopic *topicModel = [V2OTopic new];
 
-    [topicModel loadTopicItems:TopicListType_Tab boardName:@"hot" params:nil completeBlock:^(BOOL success, NSArray* items){
+    [topicModel loadTopicItems:TopicListType_Tab boardName:@"hot" params:nil completeBlock:^(BOOL success, NSArray *items) {
         completeBlock(success, items);
     }];
 }

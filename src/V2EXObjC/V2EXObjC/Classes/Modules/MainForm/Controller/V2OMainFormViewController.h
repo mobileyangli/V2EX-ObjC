@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "V2OMainFormScrollMenuView.h"
 
 @interface V2OMainFormViewController : UIViewController
-
+@property (nonatomic, weak) IBOutlet V2OMainFormScrollMenuView* menuScrollView;
+@property (nonatomic, weak) IBOutlet UIScrollView* tableViewScrollView;
 @end

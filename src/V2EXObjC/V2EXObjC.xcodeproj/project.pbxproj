@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1885F6321D2FFD5200C2E6C8 /* V2OMainFormViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F6311D2FFD5200C2E6C8 /* V2OMainFormViewControllerSpec.m */; };
 		18DFDBE11D2F9B4E00611DB7 /* V2OTopicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFDBD31D2F9B4E00611DB7 /* V2OTopicTableViewController.m */; };
 		18DFDBE21D2F9B4E00611DB7 /* V2OMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFDBD61D2F9B4E00611DB7 /* V2OMember.m */; };
 		18DFDBE31D2F9B4E00611DB7 /* V2ONode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFDBD81D2F9B4E00611DB7 /* V2ONode.m */; };
@@ -19,7 +20,6 @@
 		4D35080E1CFF91D20009CB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D35080D1CFF91D20009CB5E /* main.m */; };
 		4D3508171CFF91D20009CB5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3508151CFF91D20009CB5E /* Main.storyboard */; };
 		4D35081C1CFF91D20009CB5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D35081A1CFF91D20009CB5E /* LaunchScreen.storyboard */; };
-		4D3508271CFF91D20009CB5E /* V2EXObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3508261CFF91D20009CB5E /* V2EXObjCTests.m */; };
 		4D3508341CFFA2CE0009CB5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3508331CFFA2CE0009CB5E /* AppDelegate.m */; };
 		4D3508371CFFA3360009CB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3508361CFFA3360009CB5E /* Assets.xcassets */; };
 		4D3508401CFFA8C50009CB5E /* V2ONetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D35083F1CFFA8C50009CB5E /* V2ONetworkHelper.m */; };
@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1885F6311D2FFD5200C2E6C8 /* V2OMainFormViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2OMainFormViewControllerSpec.m; sourceTree = "<group>"; };
 		18DFDBD21D2F9B4E00611DB7 /* V2OTopicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2OTopicTableViewController.h; sourceTree = "<group>"; };
 		18DFDBD31D2F9B4E00611DB7 /* V2OTopicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2OTopicTableViewController.m; sourceTree = "<group>"; };
 		18DFDBD51D2F9B4E00611DB7 /* V2OMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2OMember.h; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		4D35081B1CFF91D20009CB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D35081D1CFF91D20009CB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D3508221CFF91D20009CB5E /* V2EXObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = V2EXObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D3508261CFF91D20009CB5E /* V2EXObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V2EXObjCTests.m; sourceTree = "<group>"; };
 		4D3508281CFF91D20009CB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D3508321CFFA2CE0009CB5E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D3508331CFFA2CE0009CB5E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +111,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1808A5401D2FF58500876761 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1808A5411D2FF58500876761 /* MainForm */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1808A5411D2FF58500876761 /* MainForm */ = {
+			isa = PBXGroup;
+			children = (
+				1808A5421D2FF58500876761 /* Controller */,
+			);
+			path = MainForm;
+			sourceTree = "<group>";
+		};
+		1808A5421D2FF58500876761 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1885F6311D2FFD5200C2E6C8 /* V2OMainFormViewControllerSpec.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		18DFDBD01D2F9B4E00611DB7 /* TopicList */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,7 +285,7 @@
 		4D3508251CFF91D20009CB5E /* V2EXObjCTests */ = {
 			isa = PBXGroup;
 			children = (
-				4D3508261CFF91D20009CB5E /* V2EXObjCTests.m */,
+				1808A5401D2FF58500876761 /* Modules */,
 				4D3508281CFF91D20009CB5E /* Info.plist */,
 			);
 			path = V2EXObjCTests;
@@ -579,7 +603,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3508271CFF91D20009CB5E /* V2EXObjCTests.m in Sources */,
+				1885F6321D2FFD5200C2E6C8 /* V2OMainFormViewControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,7 +25,7 @@
         <!--Main Form View Controller-->
         <scene sceneID="h87-20-80f">
             <objects>
-                <viewController id="bZQ-jL-yh7" customClass="V2OMainFormViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="V2OMainFormViewController" id="bZQ-jL-yh7" customClass="V2OMainFormViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jyg-l9-yJU"/>
                         <viewControllerLayoutGuide type="bottom" id="CKc-t8-srT"/>
