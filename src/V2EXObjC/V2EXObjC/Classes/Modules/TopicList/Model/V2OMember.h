@@ -6,9 +6,7 @@
 //  Copyright © 2016年 Yang Li. All rights reserved.
 //
 
-#import "V2OMTLModel.h"
-
-@interface V2OMember : V2OMTLModel
+@interface V2OMember : NSObject
 @property (nonatomic, copy) NSNumber* identifier;
 @property (nonatomic, copy) NSString* username;
 @property (nonatomic, copy) NSString* tagline;

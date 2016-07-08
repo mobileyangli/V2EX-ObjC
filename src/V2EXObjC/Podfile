@@ -4,9 +4,10 @@ use_frameworks!
 
 pod 'ReactiveCocoa'
 pod 'AFNetworking'
-pod 'Mantle'
+pod 'MJExtension'
+pod 'MJRefresh'
 pod 'MBProgressHUD'
 
 target :V2EXObjCTests, :exclusive => true do
-pod 'Kiwi'
+    pod 'Kiwi'
 end

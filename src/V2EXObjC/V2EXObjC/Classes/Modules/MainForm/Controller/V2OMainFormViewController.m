@@ -11,6 +11,7 @@
 
 @interface V2OMainFormViewController ()
 @property (nonatomic, weak) IBOutlet V2OMainFormScrollMenuView* menuScrollView;
+@property (nonatomic, weak) IBOutlet UIScrollView* tableViewScrollView;
 @end
 
 @implementation V2OMainFormViewController

@@ -6,11 +6,10 @@
 //  Copyright © 2016年 Yang Li. All rights reserved.
 //
 
-#import "V2OMTLModel.h"
 #import "V2OMember.h"
 #import "V2ONode.h"
 
-@interface V2OTopic : V2OMTLModel
+@interface V2OTopic : NSObject
 @property (nonatomic, copy) NSNumber* identifier;
 @property (nonatomic, copy) NSString* title;
 @property (nonatomic, copy) NSString* url;

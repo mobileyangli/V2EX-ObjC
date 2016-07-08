@@ -6,9 +6,9 @@
 //  Copyright © 2016年 Yang Li. All rights reserved.
 //
 
-#import "V2OMTLModel.h"
+#import "MJExtension.h"
 
-@interface V2ONode : V2OMTLModel
+@interface V2ONode : NSObject
 @property (nonatomic, copy) NSNumber* identifier;
 @property (nonatomic, copy) NSString* name;
 @property (nonatomic, copy) NSString* title;

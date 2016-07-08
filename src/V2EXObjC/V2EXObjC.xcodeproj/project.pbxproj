@@ -25,7 +25,6 @@
 		4D3508401CFFA8C50009CB5E /* V2ONetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D35083F1CFFA8C50009CB5E /* V2ONetworkHelper.m */; };
 		4D3508431CFFA9320009CB5E /* V2ONetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3508421CFFA9320009CB5E /* V2ONetworkResponse.m */; };
 		4D3508461CFFA9E30009CB5E /* V2ONetworkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3508451CFFA9E30009CB5E /* V2ONetworkError.m */; };
-		4D35084B1CFFBB200009CB5E /* V2OMTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D35084A1CFFBB200009CB5E /* V2OMTLModel.m */; };
 		4D5556F91D00F4310072FEC0 /* V2OHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5556F81D00F4310072FEC0 /* V2OHUD.m */; };
 		4D5556FC1D00F4B50072FEC0 /* MBProgressHUD+ISR.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5556FB1D00F4B50072FEC0 /* MBProgressHUD+ISR.m */; };
 		D769FCF5883CC2F951554DD7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A562D753BA34C5BE699E1E69 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -79,8 +78,6 @@
 		4D3508441CFFA9E30009CB5E /* V2ONetworkError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2ONetworkError.h; sourceTree = "<group>"; };
 		4D3508451CFFA9E30009CB5E /* V2ONetworkError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2ONetworkError.m; sourceTree = "<group>"; };
 		4D3508471CFFB9600009CB5E /* V2EXObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "V2EXObjC-Prefix.pch"; sourceTree = "<group>"; };
-		4D3508491CFFBB200009CB5E /* V2OMTLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2OMTLModel.h; sourceTree = "<group>"; };
-		4D35084A1CFFBB200009CB5E /* V2OMTLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2OMTLModel.m; sourceTree = "<group>"; };
 		4D47FC731D03E692004D1ED1 /* Constans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constans.h; sourceTree = "<group>"; };
 		4D5556F71D00F4310072FEC0 /* V2OHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2OHUD.h; sourceTree = "<group>"; };
 		4D5556F81D00F4310072FEC0 /* V2OHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2OHUD.m; sourceTree = "<group>"; };
@@ -326,8 +323,6 @@
 		4D3508481CFFBB060009CB5E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4D3508491CFFBB200009CB5E /* V2OMTLModel.h */,
-				4D35084A1CFFBB200009CB5E /* V2OMTLModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -571,7 +566,6 @@
 				18DFDBEE1D2F9C4000611DB7 /* V2OMainFormViewController.m in Sources */,
 				18DFDBE41D2F9B4E00611DB7 /* V2OTopic+Network.m in Sources */,
 				4D5556F91D00F4310072FEC0 /* V2OHUD.m in Sources */,
-				4D35084B1CFFBB200009CB5E /* V2OMTLModel.m in Sources */,
 				18DFDBE51D2F9B4E00611DB7 /* V2OTopic.m in Sources */,
 				4D3508341CFFA2CE0009CB5E /* AppDelegate.m in Sources */,
 				18DFDBE21D2F9B4E00611DB7 /* V2OMember.m in Sources */,

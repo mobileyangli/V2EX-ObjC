@@ -7,7 +7,6 @@
 //
 
 #import "V2ONetworkResponse.h"
-#import <Mantle/Mantle.h>
 
 @implementation V2ONetworkResponse
 - (instancetype)init {
@@ -18,7 +17,7 @@
     if (self) {
         _rawData = rawData;
         if (modelClass) {
-            _datas = [MTLJSONAdapter modelsOfClass:modelClass fromJSONArray:rawData error:nil];
+//            _datas = [MTLJSONAdapter modelsOfClass:modelClass fromJSONArray:rawData error:nil];
         }
     }
     return self;

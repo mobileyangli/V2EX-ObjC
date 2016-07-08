@@ -19,7 +19,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Mantle.xcscheme</key>
+		<key>MJExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,17 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2A03863B287F19A8999A1C4C74C4EFA8</key>
+		<key>270F538B8A81E6B48DC9CECA19E2CC37</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4A27739BF51ABC02F18084305F15FEE1</key>
+		<key>36229F906D708ACC261E2B754E612EFC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AFEC5FA88F3E1F053BC278E2E9A9CB2B</key>
+		<key>403CF382A2B3C107A255E497AD2D6A75</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A1A36B0D16F30EEDBF3D3A667498E60</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,17 +82,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BF024B1A88CD5E65F5285378796BF9D2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>D02E08439589872996252F4061652195</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EDE67309A658073DBAAC0A263C514D05</key>
+		<key>D253924ED9BC8CA55D8EEA651C449820</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9EDC9D2811A441868CB58FCB4CFFA02</key>
 		<dict>
 			<key>primary</key>
 			<true/>
