@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec516bfe-d203-4a8d-a51c-8b5c271bdd57" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFormViewControllerSpec.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/V2EXObjCTests/V2EXObjCTests.m" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/ViewModel/V2OMainFormViewModelSpec.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V2EXObjC.xcworkspace/xcuserdata/apple.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/V2EXObjC.xcworkspace/xcuserdata/apple.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/V2EXObjC.iml" afterPath="$PROJECT_DIR$/.idea/V2EXObjC.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/AFNetworking.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/Kiwi.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/Kiwi.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/MBProgressHUD.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/MBProgressHUD.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/MJExtension.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/MJExtension.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/MJRefresh.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/MJRefresh.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/Pods-V2EXObjCTests.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/Pods-V2EXObjCTests.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/Pods.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/Pods.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/ReactiveCocoa.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/ReactiveCocoa.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/Result.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/apple.xcuserdatad/xcschemes/Result.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V2EXObjC.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/V2EXObjC.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V2EXObjC/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/V2EXObjC/Base.lproj/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.h" afterPath="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.m" afterPath="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V2EXObjC/Classes/Modules/TopicList/ViewModel/V2OTopicTableViewModel.m" afterPath="$PROJECT_DIR$/V2EXObjC/Classes/Modules/TopicList/ViewModel/V2OTopicTableViewModel.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFormViewControllerSpec.m" afterPath="$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFormViewControllerSpec.m" />
     </list>
     <ignored path="V2EXObjC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="V2OMainFormViewControllerSpec.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="V2OMainFormViewControllerSpec.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFormViewControllerSpec.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="441">
+              <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
               <folding>
                 <element signature="e#138#159#0" expanded="true" />
               </folding>
@@ -53,23 +41,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="V2OMainFormViewController.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.m">
+      <file leaf-file-name="V2OMainFormViewModelSpec.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/ViewModel/V2OMainFormViewModelSpec.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="624">
+              <caret line="47" column="18" selection-start-line="35" selection-start-column="33" selection-end-line="47" selection-end-column="18" />
+              <folding>
+                <element signature="e#133#165#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="V2OMainFormViewController.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.h">
+      <file leaf-file-name="V2OMainFormViewModel.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/ViewModel/V2OMainFormViewModel.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="320">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
-                <element signature="e#136#159#0" expanded="true" />
+                <element signature="e#87#122#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,9 +79,13 @@
         <option value="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/View/V2OMainFormScrollMenuView.m" />
         <option value="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/View/V2OMainFormScrollMenuView.h" />
         <option value="$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFromViewControllerSpec.m" />
-        <option value="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.m" />
         <option value="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.h" />
+        <option value="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.m" />
         <option value="$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFormViewControllerSpec.m" />
+        <option value="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/ViewModel/V2OMainFormViewModel.h" />
+        <option value="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Model/V2OTag.h" />
+        <option value="$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/ViewModel/V2OMainFormViewModelSpec.m" />
+        <option value="$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/ViewModel/V2OMainFormViewModel.m" />
       </list>
     </option>
   </component>
@@ -179,156 +173,16 @@
     <panes>
       <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjC" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjCTests" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjC" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjCTests" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainForm" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjC" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjC" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjC" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjC" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicList" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjC" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjC" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjC" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjC" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="V2EXObjC" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="/Volumes/Data/Apple Air/文稿/公司项目/iDoctor/iOS/iDoctorSR/iDoctorSR.xcworkspace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../AvatarZ_3_0/source/iOS/Avatarz.xcworkspace" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="V2EXObjC" />
   </component>
   <component name="RunManager" selected="XCTest/Kiwi.V2EXObjCTest">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="V2EXObjC" TARGET_NAME="V2EXObjC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="V2EXObjC" RUN_TARGET_NAME="V2EXObjC" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -470,19 +324,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="V2EXObjCTest - 2016.07.08 at 23h 28m 42s.xml">
+    <history-entry file="V2EXObjCTest - 2016.07.09 at 11h 24m 46s.xml">
       <configuration name="V2EXObjCTest" configurationId="OCUnitRunConfiguration" />
     </history-entry>
-    <history-entry file="V2EXObjCTest - 2016.07.08 at 23h 30m 00s.xml">
+    <history-entry file="V2EXObjCTest - 2016.07.09 at 11h 41m 59s.xml">
       <configuration name="V2EXObjCTest" configurationId="OCUnitRunConfiguration" />
     </history-entry>
-    <history-entry file="V2EXObjCTest - 2016.07.08 at 23h 35m 44s.xml">
+    <history-entry file="V2EXObjCTest - 2016.07.09 at 11h 43m 56s.xml">
       <configuration name="V2EXObjCTest" configurationId="OCUnitRunConfiguration" />
     </history-entry>
-    <history-entry file="V2EXObjCTest - 2016.07.08 at 23h 38m 20s.xml">
+    <history-entry file="V2EXObjCTest - 2016.07.09 at 11h 44m 32s.xml">
       <configuration name="V2EXObjCTest" configurationId="OCUnitRunConfiguration" />
     </history-entry>
-    <history-entry file="V2EXObjCTest - 2016.07.08 at 23h 38m 53s.xml">
+    <history-entry file="V2EXObjCTest - 2016.07.09 at 11h 44m 56s.xml">
+      <configuration name="V2EXObjCTest" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="V2EXObjCTest - 2016.07.09 at 20h 16m 11s.xml">
+      <configuration name="V2EXObjCTest" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="V2EXObjCTest - 2016.07.09 at 20h 17m 39s.xml">
+      <configuration name="V2EXObjCTest" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="V2EXObjCTest - 2016.07.09 at 20h 28m 32s.xml">
+      <configuration name="V2EXObjCTest" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="V2EXObjCTest - 2016.07.09 at 20h 29m 31s.xml">
+      <configuration name="V2EXObjCTest" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="V2EXObjCTest - 2016.07.09 at 20h 43m 47s.xml">
       <configuration name="V2EXObjCTest" configurationId="OCUnitRunConfiguration" />
     </history-entry>
   </component>
@@ -490,17 +359,16 @@
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -508,6 +376,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -523,18 +392,51 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFromViewControllerSpec.m">
+    <entry file="file://$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFormViewControllerSpec.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#138#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFormViewControllerSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#138#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#136#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFromViewControllerSpec.m" />
     <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -644,38 +546,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFromViewControllerSpec.m">
+    <entry file="file://$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFromViewControllerSpec.m" />
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="245">
+          <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
             <element signature="e#136#159#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KiwiMacros.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Model/V2OTag.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Model/V2OTag.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/TopicList/Model/V2OMember.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/TopicList/Model/V2ONode.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/TopicList/Model/V2OTopic.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWEqualMatcher.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/Controller/V2OMainFormViewControllerSpec.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="441">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
           <folding>
             <element signature="e#138#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/Controller/V2OMainFormViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjCTests/Modules/MainForm/ViewModel/V2OMainFormViewModelSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="47" column="18" selection-start-line="35" selection-start-column="33" selection-end-line="47" selection-end-column="18" />
+          <folding>
+            <element signature="e#133#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/ViewModel/V2OMainFormViewModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V2EXObjC/Classes/Modules/MainForm/ViewModel/V2OMainFormViewModel.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#87#122#0" expanded="true" />
           </folding>
         </state>
       </provider>

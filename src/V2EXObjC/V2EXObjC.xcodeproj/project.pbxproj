@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1885F6321D2FFD5200C2E6C8 /* V2OMainFormViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885F6311D2FFD5200C2E6C8 /* V2OMainFormViewControllerSpec.m */; };
+		183AA3FE1D3098F2009F8983 /* V2OMainFormViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AA3FB1D3098F2009F8983 /* V2OMainFormViewControllerSpec.m */; };
+		183AA3FF1D3098F2009F8983 /* V2OMainFormViewModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AA3FD1D3098F2009F8983 /* V2OMainFormViewModelSpec.m */; };
 		18DFDBE11D2F9B4E00611DB7 /* V2OTopicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFDBD31D2F9B4E00611DB7 /* V2OTopicTableViewController.m */; };
 		18DFDBE21D2F9B4E00611DB7 /* V2OMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFDBD61D2F9B4E00611DB7 /* V2OMember.m */; };
 		18DFDBE31D2F9B4E00611DB7 /* V2ONode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFDBD81D2F9B4E00611DB7 /* V2ONode.m */; };
@@ -27,6 +28,8 @@
 		4D3508461CFFA9E30009CB5E /* V2ONetworkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3508451CFFA9E30009CB5E /* V2ONetworkError.m */; };
 		4D5556F91D00F4310072FEC0 /* V2OHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5556F81D00F4310072FEC0 /* V2OHUD.m */; };
 		4D5556FC1D00F4B50072FEC0 /* MBProgressHUD+ISR.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5556FB1D00F4B50072FEC0 /* MBProgressHUD+ISR.m */; };
+		58B8352D2E8A0AEB72C5C70E /* V2OTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83413E9ED454AFC89EEF7 /* V2OTag.m */; };
+		58B8395028A577ECA93E8E41 /* V2OMainFormViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B8309758A3A14B4B4BDEE9 /* V2OMainFormViewModel.m */; };
 		D769FCF5883CC2F951554DD7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A562D753BA34C5BE699E1E69 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F5C2D160E6335EA3D72E09BE /* Pods_V2EXObjCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775A0D4CD06D55F47011525D /* Pods_V2EXObjCTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -42,7 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1885F6311D2FFD5200C2E6C8 /* V2OMainFormViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2OMainFormViewControllerSpec.m; sourceTree = "<group>"; };
+		183AA3FB1D3098F2009F8983 /* V2OMainFormViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2OMainFormViewControllerSpec.m; sourceTree = "<group>"; };
+		183AA3FD1D3098F2009F8983 /* V2OMainFormViewModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2OMainFormViewModelSpec.m; sourceTree = "<group>"; };
 		18DFDBD21D2F9B4E00611DB7 /* V2OTopicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2OTopicTableViewController.h; sourceTree = "<group>"; };
 		18DFDBD31D2F9B4E00611DB7 /* V2OTopicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2OTopicTableViewController.m; sourceTree = "<group>"; };
 		18DFDBD51D2F9B4E00611DB7 /* V2OMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2OMember.h; sourceTree = "<group>"; };
@@ -84,6 +88,10 @@
 		4D5556FA1D00F4B50072FEC0 /* MBProgressHUD+ISR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+ISR.h"; sourceTree = "<group>"; };
 		4D5556FB1D00F4B50072FEC0 /* MBProgressHUD+ISR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+ISR.m"; sourceTree = "<group>"; };
 		507FCE44B1E0C293E102EA5B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		58B8309758A3A14B4B4BDEE9 /* V2OMainFormViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2OMainFormViewModel.m; sourceTree = "<group>"; };
+		58B831DDFAC7AEE9E56A15DF /* V2OTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2OTag.h; sourceTree = "<group>"; };
+		58B83413E9ED454AFC89EEF7 /* V2OTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2OTag.m; sourceTree = "<group>"; };
+		58B83A05208684C9F3CC8A5F /* V2OMainFormViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2OMainFormViewModel.h; sourceTree = "<group>"; };
 		775A0D4CD06D55F47011525D /* Pods_V2EXObjCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_V2EXObjCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE175182ACA1598A0A90A94 /* Pods-V2EXObjCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V2EXObjCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-V2EXObjCTests/Pods-V2EXObjCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A37C89EE6ADD9E9C2FE1073E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,25 +122,34 @@
 		1808A5401D2FF58500876761 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				1808A5411D2FF58500876761 /* MainForm */,
+				183AA3F91D3098F2009F8983 /* MainForm */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		1808A5411D2FF58500876761 /* MainForm */ = {
+		183AA3F91D3098F2009F8983 /* MainForm */ = {
 			isa = PBXGroup;
 			children = (
-				1808A5421D2FF58500876761 /* Controller */,
+				183AA3FA1D3098F2009F8983 /* Controller */,
+				183AA3FC1D3098F2009F8983 /* ViewModel */,
 			);
 			path = MainForm;
 			sourceTree = "<group>";
 		};
-		1808A5421D2FF58500876761 /* Controller */ = {
+		183AA3FA1D3098F2009F8983 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1885F6311D2FFD5200C2E6C8 /* V2OMainFormViewControllerSpec.m */,
+				183AA3FB1D3098F2009F8983 /* V2OMainFormViewControllerSpec.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		183AA3FC1D3098F2009F8983 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				183AA3FD1D3098F2009F8983 /* V2OMainFormViewModelSpec.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		18DFDBD01D2F9B4E00611DB7 /* TopicList */ = {
@@ -209,6 +226,8 @@
 		18DFDBE91D2F9B9800611DB7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				58B83413E9ED454AFC89EEF7 /* V2OTag.m */,
+				58B831DDFAC7AEE9E56A15DF /* V2OTag.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,6 +245,8 @@
 		18DFDBEB1D2F9B9800611DB7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				58B8309758A3A14B4B4BDEE9 /* V2OMainFormViewModel.m */,
+				58B83A05208684C9F3CC8A5F /* V2OMainFormViewModel.h */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -596,6 +617,8 @@
 				4D5556FC1D00F4B50072FEC0 /* MBProgressHUD+ISR.m in Sources */,
 				18DFDBE61D2F9B4E00611DB7 /* V2OTopicTableViewModel.m in Sources */,
 				4D3508461CFFA9E30009CB5E /* V2ONetworkError.m in Sources */,
+				58B8395028A577ECA93E8E41 /* V2OMainFormViewModel.m in Sources */,
+				58B8352D2E8A0AEB72C5C70E /* V2OTag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,7 +626,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1885F6321D2FFD5200C2E6C8 /* V2OMainFormViewControllerSpec.m in Sources */,
+				183AA3FF1D3098F2009F8983 /* V2OMainFormViewModelSpec.m in Sources */,
+				183AA3FE1D3098F2009F8983 /* V2OMainFormViewControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
