@@ -9,13 +9,12 @@
 #import "V2OMainFormScrollMenuView.h"
 
 @interface V2OMainFormScrollMenuView ()
-@property (nonatomic, weak) IBOutlet UIScrollView* scrollView;
+
 @end
 
 @implementation V2OMainFormScrollMenuView
 
-- (void)awakeFromNib
-{
+- (void)awakeFromNib {
     [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil];
     [self addSubview:self.scrollView];
 
@@ -23,6 +22,11 @@
     self.scrollView.backgroundColor = [UIColor yellowColor];
 }
 
-
-
+//- (void)setTagArray:(NSArray *)tagArray {
+//    _tagArray = tagArray;
+//    NSLog(@"更新top tag list %d", tagArray.count);
+//}
+- (void)setupTagList:(NSArray*)tagArray {
+    NSLog(@"setupTagList %d", tagArray.count);
+}
 @end

@@ -12,8 +12,9 @@
 }
 @end
 
-
 @implementation V2OMainFormViewModel
+
+#pragma mark - Life Cycle
 - (NSArray *)topTagArray {
     if (!_topTagArray) {
         NSArray *array = @[
@@ -34,4 +35,5 @@
     }
     return _topTagArray;
 }
+
 @end

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface V2OMainFormScrollMenuView : UIView
+@property(nonatomic, weak) IBOutlet UIScrollView *scrollView;
 
+- (void)setupTagList:(NSArray*)tagArray;
 @end

@@ -6,9 +6,10 @@
 //  Copyright © 2016年 Yang Li. All rights reserved.
 //
 
-
 #import "V2OMainFormViewController.h"
 #import "V2OMainFormViewModel.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+
 
 @interface V2OMainFormViewController ()
 @property(nonatomic, strong) V2OMainFormViewModel *viewModel;
@@ -33,7 +34,11 @@
 }
 
 - (void)applyBindings {
+    NSLog(@"applyBindings");
 
+    [RACObserve(self.viewModel, topTagArray) subscribeNext:^(NSArray * array) {
+        [self.menuScrollView setupTagList:array];
+    }];
 }
 
 @end
