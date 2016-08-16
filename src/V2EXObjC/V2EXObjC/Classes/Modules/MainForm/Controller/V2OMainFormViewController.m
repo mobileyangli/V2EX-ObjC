@@ -10,9 +10,9 @@
 #import "V2OMainFormViewModel.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 
-
 @interface V2OMainFormViewController ()
-@property(nonatomic, strong) V2OMainFormViewModel *viewModel;
+@property (nonatomic, assign) BOOL testAccept;
+@property (nonatomic, strong) V2OMainFormViewModel* viewModel;
 @end
 
 @implementation V2OMainFormViewController
@@ -25,18 +25,16 @@
 
     [self applyBindings];
 }
-
-- (V2OMainFormViewModel *)viewModel {
+- (V2OMainFormViewModel*)viewModel {
     if (!_viewModel) {
         _viewModel = [V2OMainFormViewModel new];
     }
     return _viewModel;
 }
-
 - (void)applyBindings {
-    NSLog(@"applyBindings");
-
-    [RACObserve(self.viewModel, topTagArray) subscribeNext:^(NSArray * array) {
+    @weakify(self);
+    [RACObserve(self.viewModel, topTagArray) subscribeNext:^(NSArray* array) {
+        @strongify(self);
         [self.menuScrollView setupTagList:array];
     }];
 }

@@ -237,8 +237,8 @@
 		18DFDBE91D2F9B9800611DB7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				58B83413E9ED454AFC89EEF7 /* V2OTag.m */,
 				58B831DDFAC7AEE9E56A15DF /* V2OTag.h */,
+				58B83413E9ED454AFC89EEF7 /* V2OTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -256,8 +256,8 @@
 		18DFDBEB1D2F9B9800611DB7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				58B8309758A3A14B4B4BDEE9 /* V2OMainFormViewModel.m */,
 				58B83A05208684C9F3CC8A5F /* V2OMainFormViewModel.h */,
+				58B8309758A3A14B4B4BDEE9 /* V2OMainFormViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
